@@ -13,7 +13,7 @@ https://templatemo.com/tm-578-first-portfolio
 :root {
   --white-color:                  #ffffff;
   --primary-color:                #535da1;
-  --secondary-color: rgba(183, 20, 175, 0.91);
+  --secondary-color: rgb(232, 69, 205);
   --section-bg-color:             #f9f9f9;
   --dark-color:                   #000000;
   --p-color:                      #717275;
@@ -23,7 +23,7 @@ https://templatemo.com/tm-578-first-portfolio
   --body-font-family:             'DM Sans', sans-serif;
 
   --h1-font-size:                 62px;
-  --h2-font-size:                 48px;
+  --h2-font-size:                 40px;
   --h3-font-size:                 36px;
   --h4-font-size:                 32px;
   --h5-font-size:                 24px;
@@ -78,6 +78,10 @@ h2 {
   font-size: var(--h2-font-size);
   color: var(--secondary-color);
   letter-spacing: -3px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+  shape-margin: inherit;
 }
 
 h3 {
@@ -996,9 +1000,9 @@ strong {
   }
 
   .hero-image-wrap {
-    top: -50px;
-    width: 400px;
-    height: 400px;
+    top: 50px;
+    width: 600px;
+    height: 600px;
   }
 
   .hero-image {
@@ -1008,6 +1012,8 @@ strong {
   .hero-title,
 	.hero h2 {
 	  font-size: var(--h2-font-size);
+      padding-left: 20px;
+      padding-right: 20px;
 	}
 }
 
@@ -1017,7 +1023,7 @@ strong {
   }
 
   h2 {
-    font-size: 36px;
+    font-size: 34px;
   }
 
   h3 {
@@ -1086,13 +1092,14 @@ strong {
   }
 
   .hero {
-    padding-top: 200px;
+    padding-top: 400px;
     padding-bottom: 400px;
+
   }
 
   .hero-text {
-    top: 0;
-    margin-bottom: 120px;
+    top: 20px;
+    margin-bottom: 220px;
   }
 
   .about-thumb {
@@ -1130,7 +1137,7 @@ strong {
   }
 
   .contact-info {
-    border-radius: 0 0 var(--border-radius-small) var(--border-radius-small);
+    border-radius: 0 0 var(--border-radius-medium) var(--border-radius-medium);
     padding: 40px 30px;
   }
 
@@ -1154,19 +1161,19 @@ strong {
   }
 
   h2 {
-    font-size: 28px;
+    font-size: 24px;
   }
 
   h3 {
-    font-size: 26px;
-  }
-
-  h4 {
     font-size: 22px;
   }
 
-  h5 {
+  h4 {
     font-size: 20px;
+  }
+
+  h5 {
+    font-size: 18px;
   }
 
   .custom-btn,

@@ -139,8 +139,8 @@ a:hover {
 }
 
 .section-padding {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 b,
@@ -1199,3 +1199,23 @@ strong {
   }
 }
 
+.list-row {
+    background:#f4f4f4;
+    display:inline-block;
+    border:2px solid red;}
+
+.list-left {
+    width:auto;
+    padding:10px;
+    float:left;
+    border: 2px solid blue;}
+
+.list-right {
+    padding:10px;
+    align:right;}
+
+.list-title {
+    font-size:18px;
+    padding:8px;}
+
+.list-filters { padding:8px; }
